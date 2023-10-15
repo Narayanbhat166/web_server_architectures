@@ -1,0 +1,8 @@
+concurrency: 1
+base: "http://localhost:6969"
+iterations: 10
+
+plan:
+  - name: Fetch base
+    request:
+      url: /
