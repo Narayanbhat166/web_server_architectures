@@ -1,6 +1,6 @@
-concurrency: 4
+concurrency: 150
 base: "http://localhost:6969"
-iterations: 4
+iterations: 150
 
 plan:
   - name: Fetch base

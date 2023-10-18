@@ -5,7 +5,7 @@ use std::{
     time::Duration,
 };
 
-pub fn handle_mio_connection(_stream: &mut mio::net::TcpStream) -> String {
+pub fn handle_mio_connection(stream: &mut mio::net::TcpStream) -> String {
     // let buf_reader = BufReader::new(stream);
 
     // The first line of the request contains data in the below format
